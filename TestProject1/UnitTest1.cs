@@ -123,7 +123,7 @@ namespace TestProject1
         [TestCase(13, 8)]
         [TestCase(6, 19)]
         [TestCase(0, 20)]
-        public void AssertCompareTwoNumbers(int a, int b)
+        public void AssertCompareTwoNumbers_ConstraintModel(int a, int b)
         {
             Assert.That(a > b, Is.True, $"Number {a} is not greater than {b}");
         }
