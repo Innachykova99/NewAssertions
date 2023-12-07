@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#unnecessary files of VS and git
+.obj
+.VS
+.bin
